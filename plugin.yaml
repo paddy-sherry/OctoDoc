@@ -1,5 +1,5 @@
 plugin:
-    name: 'OctoDoc'
+    name: 'leaderinternet.documentation::lang.plugin.name'
     description: 'leaderinternet.documentation::lang.plugin.description'
     author: 'Leader Internet'
     icon: oc-icon-book
