@@ -1,7 +1,7 @@
 <?php return [
     'plugin' => [
-        'name' => 'Documentation',
-        'description' => '',
+        'name' => 'OctoDoc',
+        'description' => 'Backend Documentation For Clients',
         'title_label' => 'Title',
         'title_comment' => '',
         'content_label' => 'Content',
