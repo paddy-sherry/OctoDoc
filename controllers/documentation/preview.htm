@@ -1,0 +1,29 @@
+
+<?php Block::put('breadcrumb') ?>
+    <ul>
+        <li><a href="<?= Backend::url('leaderinternet/documentation/documentation') ?>">Documentation</a></li>
+        <li><?= e($this->pageTitle) ?></li>
+    </ul>
+<?php Block::endPut() ?>
+    
+    <a
+        href="<?= Backend::url('leaderinternet/documentation/documentation/update/'.$formModel->id) ?>"
+        class="btn btn-primary oc-icon-pencil update-btn">
+        <?= e(trans('leaderinternet.documentation::lang.plugin.edit_btn')) ?>
+    </a>
+    <br/>
+<?php if (!$this->fatalError): ?>
+   
+    <div class="form-preview">
+        <?= $this->formRenderPreview() ?>
+    </div>
+
+<?php else: ?>
+    <p class="flash-message static error"><?= e($this->fatalError) ?></p>
+<?php endif ?>
+
+<p>
+    <a href="<?= Backend::url('leaderinternet/documentation/documentation') ?>" class="btn btn-default oc-icon-chevron-left">
+        <?= e(trans('backend::lang.form.return_to_list')) ?>
+    </a>
+</p>

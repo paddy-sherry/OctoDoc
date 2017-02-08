@@ -1,0 +1,11 @@
+plugin:
+    name: 'leaderinternet.documentation::lang.plugin.name'
+    description: 'leaderinternet.documentation::lang.plugin.description'
+    author: 'Leader Internet'
+    icon: oc-icon-book
+    homepage: ''
+navigation:
+    documentation:
+        label: Manual
+        url: leaderinternet/documentation/documentation
+        icon: icon-book

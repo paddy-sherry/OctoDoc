@@ -1,0 +1,4 @@
+columns:
+    title:
+        label: 'leaderinternet.documentation::lang.plugin.title_label'
+        type: text

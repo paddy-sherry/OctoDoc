@@ -1,0 +1,11 @@
+list: $/leaderinternet/documentation/models/documentation/columns.yaml
+modelClass: LeaderInternet\Documentation\Models\Documentation
+title: Documentation
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'leaderinternet/documentation/documentation/preview/:id'

@@ -1,0 +1,14 @@
+fields:
+    title:
+        label: 'leaderinternet.documentation::lang.plugin.title_label'
+        span: full
+        cssClass: doc-article-title
+        type: text
+        comment: 'leaderinternet.documentation::lang.plugin.title_comment'
+    content:
+        label: 'leaderinternet.documentation::lang.plugin.content_label'
+        size: giant
+        span: full
+        cssClass: doc-article-content
+        type: richeditor
+        comment: 'leaderinternet.documentation::lang.plugin.content_comment'

@@ -1,0 +1,15 @@
+.update-btn {
+	margin-bottom: 2em;
+}
+
+.doc-article-title label, .doc-article-content label {
+
+		display: none;
+	
+}
+
+.doc-article-title  span {
+	background-color: white !important;
+	border: none;
+	font-size: 2em;
+}

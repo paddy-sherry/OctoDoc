@@ -1,0 +1,11 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table leaderinternet_documentation_documentation'
+    - builder_table_create_leaderinternet_documentation_documentation.php
+1.0.3:
+    - 'Updated table leaderinternet_documentation_documentation'
+    - builder_table_update_leaderinternet_documentation_documentation.php
+1.0.4:
+    - 'Updated table leaderinternet_documentation_documentation'
+    - builder_table_update_leaderinternet_documentation_documentation_2.php

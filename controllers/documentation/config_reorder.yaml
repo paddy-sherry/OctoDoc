@@ -1,0 +1,4 @@
+title: Documentation
+modelClass: LeaderInternet\Documentation\Models\Documentation
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,10 @@
+name: Documentation
+form: $/leaderinternet/documentation/models/documentation/fields.yaml
+modelClass: LeaderInternet\Documentation\Models\Documentation
+defaultRedirect: leaderinternet/documentation/documentation
+create:
+    redirect: 'leaderinternet/documentation/documentation/update/:id'
+    redirectClose: leaderinternet/documentation/documentation
+update:
+    redirect: leaderinternet/documentation/documentation
+    redirectClose: leaderinternet/documentation/documentation
