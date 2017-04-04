@@ -9,7 +9,7 @@ class BuilderTableUpdateLeaderinternetDocumentationDocumentation2 extends Migrat
     {
         Schema::table('leaderinternet_documentation_documentation', function($table)
         {
-            $table->string('content', 21800)->change();
+            $table->string('content', 10000)->change();
         });
     }
 
@@ -17,7 +17,7 @@ class BuilderTableUpdateLeaderinternetDocumentationDocumentation2 extends Migrat
     {
         Schema::table('leaderinternet_documentation_documentation', function($table)
         {
-            $table->string('content', 21800)->change();
+            $table->string('content', 10000)->change();
         });
     }
 }
