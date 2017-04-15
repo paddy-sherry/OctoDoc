@@ -8,4 +8,5 @@
         'content_comment' => '',
         'edit_btn' => 'Edit',
     ],
+    'documentation_manage_manual' => 'Manage Manual',
 ];
