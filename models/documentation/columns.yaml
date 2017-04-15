@@ -2,3 +2,9 @@ columns:
     title:
         label: 'leaderinternet.documentation::lang.plugin.title_label'
         type: text
+    created_at:
+        label: 'leaderinternet.documentation::lang.plugin.created_label'
+        type: datetime
+    updated_at:
+        label: 'leaderinternet.documentation::lang.plugin.updated_label'
+        type: datetime
