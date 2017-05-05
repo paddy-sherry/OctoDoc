@@ -10,8 +10,8 @@ navigation:
         url: leaderinternet/documentation/documentation
         icon: icon-book
         permissions:
-            - leaderinternet.documentatio.manage_docs
+            - leaderinternet.documentation.manage_docs
 permissions:
-    leaderinternet.documentatio.manage_docs:
+    leaderinternet.documentation.manage_docs:
         tab: 'leaderinternet.documentation::lang.plugin.name'
         label: 'leaderinternet.documentation::lang.documentation_manage_manual'
