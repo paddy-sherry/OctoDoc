@@ -8,7 +8,8 @@ fields:
     content:
         label: 'leaderinternet.documentation::lang.plugin.content_label'
         size: giant
+        mode: tab
         span: full
         cssClass: doc-article-content
-        type: richeditor
+        type: markdown
         comment: 'leaderinternet.documentation::lang.plugin.content_comment'
