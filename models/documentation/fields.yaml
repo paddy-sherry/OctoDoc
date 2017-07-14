@@ -11,5 +11,6 @@ fields:
         mode: tab
         span: full
         cssClass: doc-article-content
-        type: markdown
+        type: richeditor
+        toolbarButtons: bold|italic|insertLink|insertImage|undo|redo
         comment: 'leaderinternet.documentation::lang.plugin.content_comment'
